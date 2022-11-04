@@ -40,7 +40,7 @@ function RecipeCreate({ createRecipe }) {
                 name="name"
                 placeholder="name"
                 onChange={handleChange}
-                value={formData.content}
+                value={formData.name}
                />
             </td>
             <td>
@@ -50,7 +50,7 @@ function RecipeCreate({ createRecipe }) {
                 name="cuisine"
                 placeholder="cuisine"
                 onChange={handleChange}
-                value={formData.content}
+                value={formData.cuisine}
                />
             </td>
             <td>
@@ -60,7 +60,7 @@ function RecipeCreate({ createRecipe }) {
                 name="photo"
                 placeholder="photo"
                 onChange={handleChange}
-                value={formData.content}
+                value={formData.photo}
                />
             </td>
             <td>
@@ -70,7 +70,7 @@ function RecipeCreate({ createRecipe }) {
                 name="ingredients"
                 placeholder="ingredients"
                 onChange={handleChange}
-                value={formData.content}
+                value={formData.ingredients}
               ></textarea>
             </td>
             <td>
@@ -80,7 +80,7 @@ function RecipeCreate({ createRecipe }) {
                 name="preparation"
                 placeholder="preparation"
                 onChange={handleChange}
-                value={formData.content}
+                value={formData.preparation}
               ></textarea>
             </td>
             <td>
